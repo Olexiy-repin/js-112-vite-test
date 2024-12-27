@@ -5,19 +5,48 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script type="module" src="./js/index.js" defer></script>
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <ul class="gallery js-gallery">
+      <li class="gallery-item">
+        <a
+          href="https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg"
+          class="gallery-link"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg"
+            alt="Hokkaido Flower"
+            class="gallery-img"
+          />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a
+          href="https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg"
+          class="gallery-link"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg"
+            alt="Container Haulage Freight"
+            class="gallery-img"
+          />
+        </a>
+      </li>
+      <li class="gallery-item">
+        <a
+          href="https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785_1280.jpg"
+          class="gallery-link"
+        >
+          <img
+            src="https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785__340.jpg"
+            alt="Aerial Beach View"
+            class="gallery-img"
+          />
+        </a>
+      </li>
+    </ul>
   </body>
 </html>
